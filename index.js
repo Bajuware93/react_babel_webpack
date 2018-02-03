@@ -1,10 +1,18 @@
 import React from 'react'
 import ReactDOM  from 'react-dom'
-import ComponentOne from './components/componentone.js'
+import Parent from './components/parent'
+//import Clock from './components/clock'
+import Clockbtn from './components/clockbtn'
 ReactDOM.render(
   <div>
-  <ComponentOne/>	
-  <h1>Hello, world!</h1>
-  </div>,	
+  <Parent />
+  </div>,
   document.getElementById('react')
+);
+
+ReactDOM.render(
+  <div>
+  <Clockbtn />
+  </div>,
+  document.getElementById('react-clock')
 );
