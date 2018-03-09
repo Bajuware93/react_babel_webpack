@@ -46,3 +46,4 @@ class InputComponent extends React.Component{
 }
 
 export default Parent;
+//Wenn lifting über mehrere Komponenten, in jeder Komponente binding in Constructor und Funktion erstellen wie in InputComponent
